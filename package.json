@@ -1,0 +1,23 @@
+{
+  "name": "cypress-playground-minsait",
+  "version": "1.0.0",
+  "description": "Este repositório é um espaço dedicado ao estudo e prática de automação de testes com **Cypress**, como parte da capacitação técnica interna da **Minsait**. Ele contém exemplos, experimentos e desafios desenvolvidos durante os treinamentos, organizados de forma clara e reutilizável.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexandresavio/cypress-playground-minsait.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexandresavio/cypress-playground-minsait/issues"
+  },
+  "homepage": "https://github.com/Alexandresavio/cypress-playground-minsait#readme",
+  "dependencies": {
+    "cypress": "^14.0.0"
+  }
+}
