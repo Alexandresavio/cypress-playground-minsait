@@ -20,11 +20,7 @@ Este repositório é um espaço dedicado ao estudo e prática de automação de 
 - ✅ Estrutura de testes e boas práticas
 - ✅ Seletores e comandos customizados
 - ✅ Testes de interface (E2E)
-- ✅ Testes de API com Cypress
 - ✅ Uso de fixtures e interceptações
-- ✅ Comandos `before`, `beforeEach`, `cy.request`, `cy.intercept`
-- ✅ Organização de pastas e reutilização de código
-<!-- ✅ Integração com CI/CD (bônus) -->
 
 ---
 
