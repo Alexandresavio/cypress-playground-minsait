@@ -1,3 +1,5 @@
+///<reference types='cypress'/>
+
 describe('Teste - Formulario', () => {
   it('Acessar aplicação e preencher campos do formulário com sucesso', () => {
     cy.visit('https://testautomationpractice.blogspot.com/');
@@ -16,6 +18,8 @@ describe('Teste - Formulario', () => {
     cy.get('#txtDate').click();
     cy.get('a[data-date="12"]').click();
     cy.get('#txtDate').should('have.value','12/07/2025');
+    cy.get('#singleFileInput').selectFile('cypress/fixtures/balao.jpg');
+    cy.get('#singleFileInput').should('have.value', 'C:\\fakepath\\balao.jpg');
 
   })
 
